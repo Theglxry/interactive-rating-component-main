@@ -7,14 +7,12 @@ const selected = document.querySelector(".selected");
 let selectedRating;
  
 
-
-
 // FUNCTIONALITY
 submit.addEventListener("click", function (e) {
   e.preventDefault();
 
   if (!selectedRating) {
-    return alert("Please rate us!");  //using return here is called short circuit . it immediately stops the code when there's no input 
+    return alert("Please rate us!");  
   }
 
 //   if (selectedRating < 4){
@@ -35,9 +33,9 @@ submit.addEventListener("click", function (e) {
 
 btnList.forEach((btns) => {
   btns.addEventListener("click", function (e) {
-    const clickedButton = e.target;
+    const clickedBtn = e.target;
 
-    selectedRating = clickedButton.innerHTML;
+    selectedRating = clickedBtn.innerHTML;
     // console.log(selectedRating);
     btns.classList.toggle("btn-focus");
   });

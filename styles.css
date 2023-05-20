@@ -11,10 +11,8 @@
   --secondary-accent: hsl(214, 19%, 21%);
   --tertiary-accent: hsl(216, 12%, 54%);
 
-  /*font styling*/
-  /* size */
+  /*font size*/
   --font-small: 1rem;
-  /* --font-small: 16px; */
 
   --font-mid: 2rem;
   --font-large: 4rem;
@@ -66,7 +64,6 @@ img {
 .flex-box {
   display: flex;
   flex-direction: column;
-  /* gap: 2rem; */
 }
 .display-none {
   display: none !important;
@@ -96,8 +93,6 @@ main {
 .container {
   background-color: var(--secondary);
   margin: 0 auto;
-  /* max-width: 80%;
-    padding: 1.5rem; */
   max-width: 28rem;
   padding: 2.25rem;
   border-radius: var(--rounded);
@@ -120,10 +115,8 @@ main {
 .rating-text h1 {
   font-size: var(--font-mid);
   color: var(--white);
-  /* gap: 1rem; */
 }
 .rating-text p {
-  /* padding: 0.2rem; */
   line-height: 1.5;
   color: var(--tertiary);
   font-size: var(--font-small);
