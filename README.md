@@ -26,7 +26,7 @@ To tackle this challenge, I focused on the following requirements and guidelines
 - Committed and pushed my changes to the repository.
 
 
-**Optionally, I deployed the project to a live environment [interactive-rating-component-main-8og7hnsl5-theglxry.vercel.app](interactive-rating-component-main-8og7hnsl5-theglxry.vercel.app) to showcase my work.**
+**Optionally, I deployed the project to a live environment [interactive-rating-component-main](https://interactive-rating-component-main-pi-lyart.vercel.app/) to showcase my work.**
 Resources and Learning:
 Throughout this challenge, I found the following resources helpful:
 
