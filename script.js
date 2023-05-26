@@ -13,8 +13,9 @@ submit.addEventListener("click", function (e) {
   e.preventDefault();
 
    // if (!selectedRating) {
-  // return alert('please rate use') //adding return here casues is called a short circuit 
+  // return alert('please rate use')
   // }
+
  if (!selectedRating) {
 // SHAKE ANIMATION IF USER DIDNT RATE
   const divContainer = document.querySelector(".container");
@@ -61,4 +62,3 @@ function shakeAnimation(shake) {
     shake.classList.remove("shake.animation");
   }, 500);
 }
-// SHAKE DIV ANIMATION END
